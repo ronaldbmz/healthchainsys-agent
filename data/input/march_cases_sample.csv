@@ -1,0 +1,5 @@
+Patient ID,Date of Surgery,Surgeon Name,Procedure Name,CPT Code,ASA Class,BMI,Discharge Disposition,Complications,Diagnosis Code,Laterality,Length of Stay
+1001,2024-03-01,Dr. Lee,Total Knee Arthroplasty,27447,II,31.2,Home,None,M17.11,Left,1.2
+1002,2024-03-03,Dr. Smith,Hip Replacement,27130,,29.5,Rehab,None,M16.10,Right,3.1
+1003,,Dr. Patel,Total Knee Arthroplasty,,III,36.7,,,M17.0,Left,2.0
+1004,2024-03-10,,Hip Replacement,27130,II,,Home,Post-op fever,,,1.0

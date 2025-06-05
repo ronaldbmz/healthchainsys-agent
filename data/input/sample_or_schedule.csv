@@ -1,0 +1,4 @@
+PatientID,ProcedureDate,Surgeon,ProcedureName,ScheduledStartTime,ActualStartTime,ORRoom,CaseStatus
+12345,2025-05-20,Dr. Smith,Total Knee Replacement,08:00,08:15,OR1,Completed
+67890,2025-05-20,Dr. Jones,Hip Arthroscopy,09:00,,OR2,Delayed
+54321,2025-05-20,Dr. Lee,Laparoscopic Cholecystectomy,10:00,10:02,OR3,Completed

@@ -1,0 +1,13 @@
+{
+    "surgical_cases": {
+      "label": "Surgical Cases - Monthly",
+      "description": "Exports surgical volume per month by CPT",
+      "saved_query_name": "Surgical Volume Monthly - v1"
+    },
+    "revenue_details": {
+      "label": "Revenue Details with Patient",
+      "description": "Full revenue breakdown per case including patient name",
+      "saved_query_name": "Revenue Details Export - June 2025"
+    }
+  }
+  

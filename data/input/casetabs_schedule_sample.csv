@@ -1,0 +1,4 @@
+Case ID,Surgeon,Procedure,Scheduled Start,Room,Status
+12345,Dr. Smith,Knee Arthroscopy,2025-06-01 08:00,OR1,Scheduled
+12346,Dr. Jones,Spine Fusion,2025-06-01 09:30,OR2,Scheduled
+12347,Dr. Patel,Hernia Repair,2025-06-01 10:15,OR3,Completed

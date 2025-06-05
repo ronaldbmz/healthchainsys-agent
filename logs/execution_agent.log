@@ -1,0 +1,898 @@
+🔁 Scanning for pending insights...
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f08cb35-3d2c-81d2-b4fd-e9a5222ed9aa
+Traceback (most recent call last):
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 118, in _parse_response
+    response.raise_for_status()
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://api.notion.com/v1/pages/1f08cb35-3d2c-81d2-b4fd-e9a5222ed9aa'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 92, in <module>
+    execute_all()
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 84, in execute_all
+    assign_default_owner(insight_id)
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 40, in assign_default_owner
+    notion.pages.update(
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/api_endpoints.py", line 232, in update
+    return self.parent.request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 194, in request
+    return self._parse_response(response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 126, in _parse_response
+    raise APIResponseError(response, body["message"], code)
+notion_client.errors.APIResponseError: 👥 Owner is not a property that exists.
+🔄 Scanning for pending insights...
+⚙️ Executing: 📦 Package HealthChainBot’s validation + dashboard services for orthopedic clinics.
+👤 Owner assigned to: 1f08cb35-3d2c-8162-a46a-e989d442c22a
+Traceback (most recent call last):
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 118, in _parse_response
+    response.raise_for_status()
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://api.notion.com/v1/pages/1f08cb35-3d2c-8162-a46a-e989d442c22a'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 94, in <module>
+    execute_all()
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 86, in execute_all
+    assign_default_owner(insight_id)
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 41, in assign_default_owner
+    notion.pages.update(
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/api_endpoints.py", line 232, in update
+    return self.parent.request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 194, in request
+    return self._parse_response(response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 126, in _parse_response
+    raise APIResponseError(response, body["message"], code)
+notion_client.errors.APIResponseError: Could not find user with ID: 7dc7ad7d-7d07-4fc7-a5a7-c5c9a1e0650a. Make sure your integration has capabilities to read user information. With those capabilities, only members and guests in the integration's workspace are visible.
+🔄 Scanning for pending insights...
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f18cb35-3d2c-8138-a46f-f5ff2c955508
+✅ Marked as complete: 1f18cb35-3d2c-8138-a46f-f5ff2c955508
+⚙️ Executing: 🏥 Target ambulatory surgical centers with a bundled AI performance suite.
+👤 Owner assigned to: 1f18cb35-3d2c-81cf-9f00-d2c0a750e678
+✅ Marked as complete: 1f18cb35-3d2c-81cf-9f00-d2c0a750e678
+⚙️ Executing: 📦 Package HealthChainBot’s validation + dashboard services for orthopedic clinics.
+👤 Owner assigned to: 1f18cb35-3d2c-812f-b9ea-cf027d336383
+✅ Marked as complete: 1f18cb35-3d2c-812f-b9ea-cf027d336383
+⚙️ Executing: 📊 Build a monetization plan around AAOS RegistrySync integration.
+👤 Owner assigned to: 1f18cb35-3d2c-81e6-9541-fa71d53ef647
+✅ Marked as complete: 1f18cb35-3d2c-81e6-9541-fa71d53ef647
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f18cb35-3d2c-8125-853b-c789124f5ec8
+✅ Marked as complete: 1f18cb35-3d2c-8125-853b-c789124f5ec8
+⚙️ Executing: 📊 Build a monetization plan around AAOS RegistrySync integration.
+👤 Owner assigned to: 1f18cb35-3d2c-81c6-b6d7-e4a4ce733e9a
+✅ Marked as complete: 1f18cb35-3d2c-81c6-b6d7-e4a4ce733e9a
+⚙️ Executing: 🧠 Monetize benchmarking data across markets with anonymized reporting.
+👤 Owner assigned to: 1f18cb35-3d2c-8190-87f7-ff310247e69d
+✅ Marked as complete: 1f18cb35-3d2c-8190-87f7-ff310247e69d
+⚙️ Executing: 📦 Package HealthChainBot’s validation + dashboard services for orthopedic clinics.
+👤 Owner assigned to: 1f08cb35-3d2c-81ab-bd3a-cc5bd987cc8d
+✅ Marked as complete: 1f08cb35-3d2c-81ab-bd3a-cc5bd987cc8d
+⚙️ Executing: 📈 Offer payers predictive dashboard services via annual subscriptions.
+👤 Owner assigned to: 1f08cb35-3d2c-817f-ad03-f1bacceade8a
+✅ Marked as complete: 1f08cb35-3d2c-817f-ad03-f1bacceade8a
+⚙️ Executing: 💰 Introduce tiered pricing models for HealthChainBot services based on data volume.
+👤 Owner assigned to: 1f08cb35-3d2c-81cb-97e4-c391315df9fa
+✅ Marked as complete: 1f08cb35-3d2c-81cb-97e4-c391315df9fa
+⚙️ Executing: 📊 Build a monetization plan around AAOS RegistrySync integration.
+👤 Owner assigned to: 1f08cb35-3d2c-81cf-962c-de0a3be9f6e7
+✅ Marked as complete: 1f08cb35-3d2c-81cf-962c-de0a3be9f6e7
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f08cb35-3d2c-812d-8b93-f03fa048f3d0
+✅ Marked as complete: 1f08cb35-3d2c-812d-8b93-f03fa048f3d0
+⚙️ Executing: 📈 Offer payers predictive dashboard services via annual subscriptions.
+👤 Owner assigned to: 1f08cb35-3d2c-81d2-951a-e515b7a30d54
+✅ Marked as complete: 1f08cb35-3d2c-81d2-951a-e515b7a30d54
+⚙️ Executing: 📦 Package HealthChainBot’s validation + dashboard services for orthopedic clinics.
+👤 Owner assigned to: 1f08cb35-3d2c-8155-829c-d04949092d87
+✅ Marked as complete: 1f08cb35-3d2c-8155-829c-d04949092d87
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f08cb35-3d2c-819e-bdc1-e2aeb980b34f
+✅ Marked as complete: 1f08cb35-3d2c-819e-bdc1-e2aeb980b34f
+⚙️ Executing: 📊 Build a monetization plan around AAOS RegistrySync integration.
+👤 Owner assigned to: 1f08cb35-3d2c-8199-b367-e353128c8d16
+✅ Marked as complete: 1f08cb35-3d2c-8199-b367-e353128c8d16
+⚙️ Executing: 🧠 Monetize benchmarking data across markets with anonymized reporting.
+👤 Owner assigned to: 1f08cb35-3d2c-8130-bd55-d10aa53c6e54
+✅ Marked as complete: 1f08cb35-3d2c-8130-bd55-d10aa53c6e54
+⚙️ Executing: 📦 Package HealthChainBot’s validation + dashboard services for orthopedic clinics.
+👤 Owner assigned to: 1f08cb35-3d2c-81bc-9674-f5e39135589d
+✅ Marked as complete: 1f08cb35-3d2c-81bc-9674-f5e39135589d
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f08cb35-3d2c-815f-944c-f202ce2b108d
+✅ Marked as complete: 1f08cb35-3d2c-815f-944c-f202ce2b108d
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f08cb35-3d2c-81a2-a9d2-f721a6ed0c1a
+✅ Marked as complete: 1f08cb35-3d2c-81a2-a9d2-f721a6ed0c1a
+⚙️ Executing: 📊 Build a monetization plan around AAOS RegistrySync integration.
+👤 Owner assigned to: 1f08cb35-3d2c-813f-a274-d01502024e7e
+✅ Marked as complete: 1f08cb35-3d2c-813f-a274-d01502024e7e
+⚙️ Executing: 🧠 Monetize benchmarking data across markets with anonymized reporting.
+👤 Owner assigned to: 1f08cb35-3d2c-819e-911b-db4fea32d45f
+✅ Marked as complete: 1f08cb35-3d2c-819e-911b-db4fea32d45f
+⚙️ Executing: 📊 Build a monetization plan around AAOS RegistrySync integration.
+👤 Owner assigned to: 1f08cb35-3d2c-81cc-9f97-c343e442d853
+✅ Marked as complete: 1f08cb35-3d2c-81cc-9f97-c343e442d853
+⚙️ Executing: 📈 Offer payers predictive dashboard services via annual subscriptions.
+👤 Owner assigned to: 1f08cb35-3d2c-8142-910f-caeb95d70e98
+✅ Marked as complete: 1f08cb35-3d2c-8142-910f-caeb95d70e98
+⚙️ Executing: 🧠 Monetize benchmarking data across markets with anonymized reporting.
+👤 Owner assigned to: 1f08cb35-3d2c-812c-80cf-ed3654d698de
+✅ Marked as complete: 1f08cb35-3d2c-812c-80cf-ed3654d698de
+⚙️ Executing: 🧠 Monetize benchmarking data across markets with anonymized reporting.
+👤 Owner assigned to: 1f08cb35-3d2c-8135-b968-de590e8faf32
+✅ Marked as complete: 1f08cb35-3d2c-8135-b968-de590e8faf32
+⚙️ Executing: 📈 Offer payers predictive dashboard services via annual subscriptions.
+👤 Owner assigned to: 1f08cb35-3d2c-8199-9a98-ecff3fcc904a
+✅ Marked as complete: 1f08cb35-3d2c-8199-9a98-ecff3fcc904a
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f08cb35-3d2c-815c-9fed-ffc70c8f0999
+🚩 Flag added to: 1f08cb35-3d2c-815c-9fed-ffc70c8f0999
+✅ Marked as complete: 1f08cb35-3d2c-815c-9fed-ffc70c8f0999
+⚙️ Executing: 🧠 Monetize benchmarking data across markets with anonymized reporting.
+👤 Owner assigned to: 1f08cb35-3d2c-81ea-8a44-d659c430b16c
+🚩 Flag added to: 1f08cb35-3d2c-81ea-8a44-d659c430b16c
+✅ Marked as complete: 1f08cb35-3d2c-81ea-8a44-d659c430b16c
+⚙️ Executing: 🏥 Target ambulatory surgical centers with a bundled AI performance suite.
+👤 Owner assigned to: 1f08cb35-3d2c-8121-b0ab-d9717046770f
+🚩 Flag added to: 1f08cb35-3d2c-8121-b0ab-d9717046770f
+✅ Marked as complete: 1f08cb35-3d2c-8121-b0ab-d9717046770f
+⚙️ Executing: 🧠 Monetize benchmarking data across markets with anonymized reporting.
+👤 Owner assigned to: 1f08cb35-3d2c-81ce-bc3f-c038b86719fb
+🚩 Flag added to: 1f08cb35-3d2c-81ce-bc3f-c038b86719fb
+✅ Marked as complete: 1f08cb35-3d2c-81ce-bc3f-c038b86719fb
+🔄 Scanning for pending insights...
+⚙️ Executing: 💰 Introduce tiered pricing models for HealthChainBot services based on data volume.
+👤 Owner assigned to: 1f18cb35-3d2c-815a-ade7-fe79d8406ba3
+✅ Marked as complete: 1f18cb35-3d2c-815a-ade7-fe79d8406ba3
+⚙️ Executing: 🤝 Partner with healthtech distributors to resell all analytics modules.
+👤 Owner assigned to: 1f18cb35-3d2c-8170-ab64-e6d28d884a7b
+✅ Marked as complete: 1f18cb35-3d2c-8170-ab64-e6d28d884a7b
+⚙️ Executing: 📈 Offer payers predictive dashboard services via annual subscriptions.
+👤 Owner assigned to: 1f18cb35-3d2c-81b2-8bed-cd91432917ec
+✅ Marked as complete: 1f18cb35-3d2c-81b2-8bed-cd91432917ec
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 🧠 Partner with academic R&D centers to co-develop precision outcome models.
+👤 Owner assigned to: 1f18cb35-3d2c-8126-b3dc-cb63ae962361
+✅ Marked as complete: 1f18cb35-3d2c-8126-b3dc-cb63ae962361
+⚙️ Executing: 🧠 Partner with academic R&D centers to co-develop precision outcome models.
+👤 Owner assigned to: 1f18cb35-3d2c-8173-ab7f-f26832930164
+✅ Marked as complete: 1f18cb35-3d2c-8173-ab7f-f26832930164
+⚙️ Executing: 🧠 Partner with academic R&D centers to co-develop precision outcome models.
+👤 Owner assigned to: 1f18cb35-3d2c-8131-b2f4-e1c4305e2b58
+✅ Marked as complete: 1f18cb35-3d2c-8131-b2f4-e1c4305e2b58
+🔄 Scanning for pending insights...
+⚙️ Executing: 🔬 Introduce AI-driven benchmarking and optimization modules for surgical pathways.
+👤 Owner assigned to: 1f18cb35-3d2c-8100-a95b-c136538eee78
+✅ Marked as complete: 1f18cb35-3d2c-8100-a95b-c136538eee78
+⚙️ Executing: 📈 Improve payer mix through direct-to-employer and bundled contract models.
+👤 Owner assigned to: 1f18cb35-3d2c-8128-ad4a-f3ac235fb0ba
+✅ Marked as complete: 1f18cb35-3d2c-8128-ad4a-f3ac235fb0ba
+⚙️ Executing: 💼 Launch targeted campaigns for orthopedic clinics based on regional outcome benchmarks.
+👤 Owner assigned to: 1f18cb35-3d2c-81c1-9002-f7b89d97069c
+✅ Marked as complete: 1f18cb35-3d2c-81c1-9002-f7b89d97069c
+🔄 Scanning for pending insights...
+⚙️ Executing: 💼 Launch targeted campaigns for orthopedic clinics based on regional outcome benchmarks.
+👤 Owner assigned to: 1f18cb35-3d2c-8120-ac5a-d22a4b2c3cdd
+✅ Marked as complete: 1f18cb35-3d2c-8120-ac5a-d22a4b2c3cdd
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 🧠 Monitor orthopedic volume market share by payor and subspecialty.
+👤 Owner assigned to: 1f18cb35-3d2c-813b-befa-c02904ac5e62
+✅ Marked as complete: 1f18cb35-3d2c-813b-befa-c02904ac5e62
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 📊 Validate healthtech BD accuracy through clinical trials.
+👤 Owner assigned to: 1f18cb35-3d2c-810f-a2d6-d911f8a4bd9f
+✅ Marked as complete: 1f18cb35-3d2c-810f-a2d6-d911f8a4bd9f
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 📈 Track patient acquisition growth across ASC vs HOPD site models.
+👤 Owner assigned to: 1f18cb35-3d2c-81fd-93c4-c3e18dcdc725
+✅ Marked as complete: 1f18cb35-3d2c-81fd-93c4-c3e18dcdc725
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 🧠 Partner with academic R&D centers to co-develop precision outcome models.
+👤 Owner assigned to: 1f28cb35-3d2c-81a9-b007-e2dd8362250e
+✅ Marked as complete: 1f28cb35-3d2c-81a9-b007-e2dd8362250e
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 💼 Launch targeted campaigns for orthopedic clinics based on regional outcome benchmarks.
+👤 Owner assigned to: 1f28cb35-3d2c-8116-b1c3-e9418646ceaa
+✅ Marked as complete: 1f28cb35-3d2c-8116-b1c3-e9418646ceaa
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 🧠 Partner with academic R&D centers to co-develop precision outcome models.
+👤 Owner assigned to: 1f38cb35-3d2c-81e6-9b78-c55df9aee4c7
+✅ Marked as complete: 1f38cb35-3d2c-81e6-9b78-c55df9aee4c7
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 🧠 Monitor orthopedic volume market share by payor and subspecialty.
+👤 Owner assigned to: 1f38cb35-3d2c-81c5-98e4-e4f7fa1b0edc
+✅ Marked as complete: 1f38cb35-3d2c-81c5-98e4-e4f7fa1b0edc
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 🧠 Partner with academic R&D centers to co-develop precision outcome models.
+👤 Owner assigned to: 1f48cb35-3d2c-8150-863d-ccf37da4fcfc
+✅ Marked as complete: 1f48cb35-3d2c-8150-863d-ccf37da4fcfc
+🔄 Scanning for pending insights...
+⚙️ Executing: 📊 Validate healthtech BD accuracy through clinical trials.
+👤 Owner assigned to: 1f48cb35-3d2c-81c4-aa7a-fc1fd461a2e5
+✅ Marked as complete: 1f48cb35-3d2c-81c4-aa7a-fc1fd461a2e5
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+⚙️ Executing: 💼 Launch targeted campaigns for orthopedic clinics based on regional outcome benchmarks.
+👤 Owner assigned to: 1f48cb35-3d2c-8124-a47a-df330205da19
+✅ Marked as complete: 1f48cb35-3d2c-8124-a47a-df330205da19
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+🔄 Scanning for pending insights...
+Traceback (most recent call last):
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 118, in _parse_response
+    response.raise_for_status()
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://api.notion.com/v1/pages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 74, in <module>
+    log_execution_task("MarketIntel", "Generated summary for Sintra.ai and LeanAI")
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 41, in log_execution_task
+    response = notion.pages.create(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/api_endpoints.py", line 208, in create
+    return self.parent.request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 194, in request
+    return self._parse_response(response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 126, in _parse_response
+    raise APIResponseError(response, body["message"], code)
+notion_client.errors.APIResponseError: 🧠 Insight Summary is not a property that exists.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+Traceback (most recent call last):
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout: [Errno 60] Operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 191, in request
+    response = self.client.send(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 74, in <module>
+    log_execution_task("MarketIntel", "Generated summary for Sintra.ai and LeanAI")
+  File "/Users/Bianca/Downloads/HealthChainBot_Desktop/core/execution_agent.py", line 41, in log_execution_task
+    response = notion.pages.create(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/api_endpoints.py", line 208, in create
+    return self.parent.request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Bianca/miniconda3/lib/python3.12/site-packages/notion_client/client.py", line 193, in request
+    raise RequestTimeoutError()
+notion_client.errors.RequestTimeoutError: Request to Notion API has timed out
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
+✅ Execution task from MarketIntel logged.
